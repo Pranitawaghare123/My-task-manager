@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+</head>
+<body>
+
+    <main class="container">
+        <h1>My Task Manager</h1>
+
+        <form id="taskForm">
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="Enter a task..."
+            >
+            <button type="submit">Add Task</button>
+        </form>
+
+        <p id="message"></p>
+        <p>Total tasks: <span id="taskCount">0</span></p>
+
+        <ul id="taskList"></ul>
+
+        <button id="clearBtn" type="button">Clear All Tasks</button>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js">
+   
+    </script>
+</body>
+</html>
